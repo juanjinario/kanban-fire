@@ -1,0 +1,38 @@
+.content-wrapper {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  .container-wrapper {
+    display: flex;
+    justify-content: space-around;
+    .container {
+      width: 400px;
+      margin: 0 25px;
+    }
+  }
+}
+
+.list {
+  border: solid 1px #ccc;
+  min-height: 60px;
+  border-radius: 4px;
+}
+
+app-task {
+  margin-bottom: 30px;
+}
+
+.empty-label {
+  font-size: 2rem;
+  opacity: 0.2;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.cdk-drag-placeholder {
+  opacity: 0;
+}
+
+.cdk-drag-animating {
+  transition: transform 250ms;
+}
